@@ -25,9 +25,10 @@
                 </div>
 
                 <div class="icons">
-                    <img src="search_icon.png" width="50" height="50">
-                    <img src="menu_icon.png" width="50" height="50">
+                    <img src="search_icon.png" class="search-icon" width="50" height="50">
+                    <img src="menu_icon.png" class="menu-icon" width="50" height="50">
                 </div>
+
             </div>
 
         </nav>
@@ -40,7 +41,7 @@
         <div class="ourteam">
             <div class="person person1">
                 <div class="image">
-                    <img src="Denyo.jpeg" width="400px" height="400px"
+                    <img src="Dainel.jpeg" width="400px" height="400px"
                         style="padding:0px 20px; border-radius:50%;margin-left: 100px;">
                 </div>
                 <div class="dany-description">
@@ -192,6 +193,27 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        // Get references to the menu and search icons
+        var menuIcon = document.querySelector('.menu-icon');
+        var searchIcon = document.querySelector('.search-icon');
+
+        // Get references to the menu and search elements
+        var menuElement = document.querySelector('.nav-buttons');
+        var searchElement = document.querySelector('.search-bar');
+
+        // Add click event listeners to the menu and search icons
+        menuIcon.addEventListener('click', function () {
+            menuElement.classList.toggle('active');
+        });
+
+        searchIcon.addEventListener('click', function () {
+            searchElement.classList.toggle('active');
+        });
+
+
+    </script>
 
 </body>
 

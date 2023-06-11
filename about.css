@@ -1,7 +1,17 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+/* Add this CSS code to show/hide the menu and search elements */
+.active {
+    display: block !important;
+}
+
+.search-bar {
+    display: none;
+    /* Add your search bar styles here */
 }
 
 body {
@@ -11,14 +21,17 @@ body {
     margin: 0;
     padding: 0;
 }
-header,body{
+
+header,
+body {
     background: #D9F1FF;
 }
-head body{
+
+head body {
     position: relative;
     width: 1440px;
-    height:4303px;
-    
+    height: 4303px;
+
 }
 
 main {
@@ -55,22 +68,27 @@ nav {
     justify-content: space-between;
     color: white;
 }
-.nav-buttons{
+
+.nav-buttons {
     margin: 10px;
-    padding-top:10px;
+    padding-top: 10px;
     padding-right: 20px;
 }
+
 .nav-buttons button {
     margin-right: 10px;
 }
-.logo{
+
+.logo {
     margin: 10px 10px;
 }
-.nav_icons{
+
+.nav_icons {
     display: flex;
     justify-content: end;
     margin-left: 250px;
 }
+
 .person {
     display: flex;
     align-items: center;
@@ -82,45 +100,54 @@ nav {
 .person .description {
     width: 50%;
 }
+
 .person img {
     margin-bottom: 50px;
 }
 
-.dany-description,.fatma-description{
+.dany-description,
+.fatma-description {
     right: 300px;
     width: 400px;
 }
-.person .description{
+
+.person .description {
     padding-left: 100px;
     margin-left: 100px;
     width: 400px;
 }
-.person .ruth-description{
+
+.person .ruth-description {
     position: absolute;
     top: 1420px;
 }
-.ruth-description{
+
+.ruth-description {
     right: 300px;
     width: 400px;
 }
-.person .guled-description{
+
+.person .guled-description {
     position: absolute;
     width: 400px;
-    padding-left:100px;
-    top:2000px
+    padding-left: 100px;
+    top: 2000px
 }
-.telesphore-description{
+
+.telesphore-description {
     position: absolute;
     right: 300px;
     width: 400px;
-    top:2600px;
+    top: 2600px;
 }
-.fatma-description{
+
+.fatma-description {
     width: 400px;
-    top:3150px;
+    top: 3150px;
     margin-left: 100px;
 }
-.team-word{
+
+.team-word {
     font-size: 50px;
     margin: 50px 70px;
     text-decoration: underline;
@@ -128,91 +155,101 @@ nav {
     text-decoration-thickness: 3px;
 }
 
-.person4 , .person6{
+.person4,
+.person6 {
     margin: 100px 100px;
-    
+
 }
+
 .person {
 
     border-bottom: 7px dashed grey;
     padding-bottom: 20px;
     margin-bottom: 20px;
 }
+
 .person:last-child {
     border-bottom: none;
     padding-bottom: 0;
     margin-bottom: 0;
 }
+
 .person3,
 .person4,
-.person5{
-  border-bottom: 7px dashed grey;
-  padding-bottom: 400px;
-  margin-bottom: 20px;
-}
-.person6 {
-  border-bottom: none;
-  padding-bottom: 0px;
-  margin-bottom: 0;
+.person5 {
+    border-bottom: 7px dashed grey;
+    padding-bottom: 400px;
+    margin-bottom: 20px;
 }
 
-.booking{
+.person6 {
+    border-bottom: none;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+}
+
+.booking {
     position: absolute;
     justify-content: center;
-    background:#0f98e7 ;
+    background: #0f98e7;
 }
-.hor-container{
-    position: absolute;
-    display:flex;
-    justify-content: space-around;
-    
-}
-.terms-condition{
+
+.hor-container {
     position: absolute;
     display: flex;
-    justify-content:space-around ;
+    justify-content: space-around;
+
 }
-.ready-to-book{
+
+.terms-condition {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ready-to-book {
     position: absolute;
     width: 300px;
     text-align: end;
-    
-}    
-.social-media-icons{
+
+}
+
+.social-media-icons {
     position: absolute;
     display: flex;
-    left:400px;
+    left: 400px;
 }
-.social-media-margin{
-    margin-left:10px;
+
+.social-media-margin {
+    margin-left: 10px;
 }
-.info{
+
+.info {
     position: absolute;
     display: flex;
     top: 200px;
 }
-.info1{
+
+.info1 {
     margin: 0px 10px;
 }
-.privacy{
+
+.privacy {
     position: absolute;
     display: flex;
     top: 200px;
-    left:400px
+    left: 400px
 }
+
 a {
     color: rgb(2, 11, 20);
     background: rgb(84, 149, 165);
     text-decoration: none;
-    
+
 }
-  
+
 a:hover {
     color: rgb(236, 229, 241);
     background: rgb(39, 3, 87);
     /*text-decoration: underline;*/
 }
-  
-
-
-

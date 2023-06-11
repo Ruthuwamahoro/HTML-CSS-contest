@@ -1,30 +1,37 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-head body{
+head body {
     position: relative;
     width: fit-content;
     height: 336px;
-    
+
 }
 
-.start-page{
+header,
+body {
+    background: #D9F1FF;
+}
+
+.start-page {
     display: flex;
     justify-content: space-between;
 }
-.nav-buttons{
+
+.nav-buttons {
     padding-top: 20px;
     padding-left: 600px;
 }
-.nav-buttons button{
+
+.nav-buttons button {
     margin-left: 20px;
     padding-left: 20px;
 }
 
-.giraffe-image img{
+.giraffe-image img {
     position: absolute;
     width: 1120px;
     height: 506px;
@@ -34,7 +41,7 @@ head body{
 
 }
 
-.description h2{
+.description h2 {
     position: absolute;
     width: 388px;
     height: 40px;
@@ -48,7 +55,8 @@ head body{
     text-decoration: underline;
     text-decoration-color: #08382D;
 }
-.callus{
+
+.callus {
     position: absolute;
     width: 338px;
     height: 49px;
@@ -58,7 +66,8 @@ head body{
     text-decoration-color: blue;
 
 }
-.call-us img{
+
+.call-us img {
     position: absolute;
     width: 440px;
     height: 250px;
@@ -67,7 +76,7 @@ head body{
     border-radius: 50px 50px 0px 0px;
 }
 
-.call-option{
+.call-option {
     position: absolute;
     width: 430px;
     height: 400px;
@@ -77,9 +86,10 @@ head body{
     background: #d0d1c9;
     box-shadow: 18px 10px 80px 7px rgba(0, 0, 0, 0.25);
     border-radius: 0px 0px 50px 50px;
-    
+
 }
-.call-option img{
+
+.call-option img {
     position: absolute;
     left: 23px;
     left: 350px;
@@ -91,8 +101,9 @@ head body{
     border-radius: 50%;
 
 }
-.call-paragraph{
-    position:absolute;
+
+.call-paragraph {
+    position: absolute;
     width: 384px;
     height: 160px;
     left: 23px;
@@ -103,34 +114,37 @@ head body{
     color: #757575;
     text-align: justify;
 }
-.tanzania-office{
-    position:absolute;
-    bottom:250px;
-    left:23px
+
+.tanzania-office {
+    position: absolute;
+    bottom: 250px;
+    left: 23px
 }
 
-.tel-tz{
-    position:absolute;
-    bottom:210px;
-    left:23px;
+.tel-tz {
+    position: absolute;
+    bottom: 210px;
+    left: 23px;
     color: green;
     font-weight: bold;
 
 }
-.rwanda-office{
-    position:absolute;
-    bottom:190px;
-    left:23px;
+
+.rwanda-office {
+    position: absolute;
+    bottom: 190px;
+    left: 23px;
 }
-.tel-rwanda{
-    position:absolute;
-    bottom:160px;
-    left:23px;
+
+.tel-rwanda {
+    position: absolute;
+    bottom: 160px;
+    left: 23px;
     color: green;
     font-weight: bold;
 }
 
-.label1{
+.label1 {
     position: absolute;
     width: 297px;
     height: 34px;
@@ -140,7 +154,8 @@ head body{
     font-size: 25px;
     color: #08382D;
 }
-.paragraph1{
+
+.paragraph1 {
     position: absolute;
     width: 297px;
     height: 34px;
@@ -150,7 +165,8 @@ head body{
     font-size: 25px;
     color: #08382D;
 }
-.label2{
+
+.label2 {
     position: absolute;
     width: 297px;
     height: 34px;
@@ -160,19 +176,21 @@ head body{
     font-size: 17px;
     color: #08382D;
 }
-.decor{
+
+.decor {
     position: absolute;
     width: 30px;
     height: 28.59px;
     left: 160px;
-    bottom:-557px;
+    bottom: -557px;
 }
-.country{
+
+.country {
     position: absolute;
     width: 125px;
     height: 35px;
     left: 201px;
-    bottom:-557px;
+    bottom: -557px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -184,44 +202,50 @@ head body{
     letter-spacing: -0.065em;
     color: #757575;
 }
-.first-name{
-    position:absolute;
+
+.first-name {
+    position: absolute;
     width: 120px;
     height: 100px;
-    left:160px;
-    bottom:-700px
+    left: 160px;
+    bottom: -700px
 }
-.firsttext{
-    position:absolute;
+
+.firsttext {
+    position: absolute;
     width: 300px;
     height: 50px;
-    left:160px;
-    bottom:-700px;
+    left: 160px;
+    bottom: -700px;
     border-radius: 16px;
 }
-.last-name{
-    position:absolute;
+
+.last-name {
+    position: absolute;
     width: 120px;
     height: 100px;
-    left:160px;
-    bottom:-820px
+    left: 160px;
+    bottom: -820px
 }
-.lasttext{
-    position:absolute;
+
+.lasttext {
+    position: absolute;
     width: 300px;
     height: 50px;
-    left:160px;
-    bottom:-820px;
+    left: 160px;
+    bottom: -820px;
     border-radius: 16px;
 }
-.email{
-    position:absolute;
-    width:160px;
+
+.email {
+    position: absolute;
+    width: 160px;
     height: 100px;
     left: 160px;
     bottom: -940px;
 }
-.emailtext{
+
+.emailtext {
     position: absolute;
     width: 300px;
     height: 50px;
@@ -229,52 +253,59 @@ head body{
     bottom: -940px;
     border-radius: 16px;
 }
-.tel{
-    position:absolute;
+
+.tel {
+    position: absolute;
     width: 200px;
     height: 100px;
-    left:160px;
-    bottom:-1070px;
+    left: 160px;
+    bottom: -1070px;
 }
-.teltext{
-    position:absolute;
+
+.teltext {
+    position: absolute;
     width: 300px;
     height: 50px;
-    left:160px;
-    bottom:-1070px;
+    left: 160px;
+    bottom: -1070px;
     border-radius: 16px;
 }
-.personal-info{
-    position:absolute;
-    width:500px;
-    height:160px;
-    left:160px;
-    bottom :-1250px;
+
+.personal-info {
+    position: absolute;
+    width: 500px;
+    height: 160px;
+    left: 160px;
+    bottom: -1250px;
 }
-.plans-input{
-    position:absolute;
-    width:300px;
-    height: 170px;
-    left:160px;
-    bottom:-1350px;
-    border-radius: 16px;
-}
-.personal-info2{
-    position:absolute;
-    width:500px;
-    height:160px;
-    left:160px;
-    bottom:-1550px;
-}
-.plans-input2{
+
+.plans-input {
     position: absolute;
     width: 300px;
     height: 170px;
     left: 160px;
-    bottom:-1650px;
+    bottom: -1350px;
     border-radius: 16px;
 }
-.checkbox{
+
+.personal-info2 {
+    position: absolute;
+    width: 500px;
+    height: 160px;
+    left: 160px;
+    bottom: -1550px;
+}
+
+.plans-input2 {
+    position: absolute;
+    width: 300px;
+    height: 170px;
+    left: 160px;
+    bottom: -1650px;
+    border-radius: 16px;
+}
+
+.checkbox {
     position: absolute;
     width: 20px;
     height: 20px;
@@ -284,15 +315,17 @@ head body{
     background: #FFFFFF;
     border: 3px solid #757575;
 }
-.subscribe{
+
+.subscribe {
     position: absolute;
     width: 413px;
     height: 80px;
     left: 222px;
     top: 2296px;
 }
-.submit{
-    color:white;
+
+.submit {
+    color: white;
     font-size: large;
     padding: 33px;
     gap: 10px;
@@ -302,13 +335,13 @@ head body{
     height: 36px;
     left: 249px;
     top: 2350px;
-    
+
     background: #21A59C;
     text-align: center;
     border-radius: 100px;
 }
 
-footer h2{
+footer h2 {
     position: absolute;
     width: 1100px;
     height: 250px;
@@ -318,55 +351,65 @@ footer h2{
     color: #FFFFFF;
     padding: 50px 60px;
     font-size: large;
-       
+
 }
 
 .facebook-icon {
     color: #023297;
 }
-.instagram-icon{
-    color:#c13584;
+
+.instagram-icon {
+    color: #c13584;
 }
-.twitter-icon{
+
+.twitter-icon {
     color: #0670b3;
 }
+
 .gmail-icon {
     color: #d33426;
 }
-.social-media-icons{
+
+.social-media-icons {
     position: absolute;
-    left:1000px;
-    top:2500px;
+    left: 1000px;
+    top: 2500px;
     display: flex;
     justify-content: end;
     padding: 50px 50px;
 
 }
-.social-media-margin{
+
+.social-media-margin {
     margin-left: 10px;
 }
-.info{
+
+.info {
     position: absolute;
     left: 150px;
     top: 2700px;
     display: flex;
     padding: 2px 60px;
 }
-.info1{
+
+.info1 {
     margin: 0px 10px;
 }
-.info2{
+
+.info2 {
     font-size: large;
     color: #FFFFFF;
 }
-.privacy{
-    position:absolute;
-    left:950px;
-    top:2700px;
-    display:flex;
+
+.privacy {
+    position: absolute;
+    left: 950px;
+    top: 2700px;
+    display: flex;
     padding: 5px 50px;
 }
-.privacy1{
+
+.privacy1 {
     margin-right: 20px;
     font-size: large;
     color: #FFFFFF;
