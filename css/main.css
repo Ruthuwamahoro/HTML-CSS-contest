@@ -1,0 +1,253 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+}
+.wrapper {
+    position: relative;
+    background-color: #eefffa;
+    width: 100%;
+    height: 1303px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 30px;
+    color: #08382d;
+    font-family: Inter;
+}
+
+.header {
+    display: flex;
+    justify-content:center;
+}
+
+.logo img{
+    position: absolute;
+    width: 63.45px;
+    height: 57.8px;
+    left: 90px;
+    top: 58px;
+}
+
+.red-tourism {
+    position: absolute;
+    width: 358px;
+    height: 34px;
+    left: 159px;
+    top: 75px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 34px;
+    letter-spacing: -0.085em;
+    color: #08382D;
+}
+
+
+header .menu {
+    display: flex;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 34px;
+    letter-spacing: -0.135em;
+    color: #08382D;
+    text-transform: uppercase;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #08382D;
+}
+
+.home {
+    position: absolute;
+    width: 77px;
+    height: 34px;
+    left: 600px;
+    top: 78px;
+}
+
+.travel {
+    position: absolute;
+    width: 90px;
+    height: 34px;
+    left: 927px;
+    top: 78px;
+    
+}
+
+.about{
+    position: absolute;
+    width: 87px;
+    height: 34px;
+    left: 1042px;
+    top: 78px;   
+}
+
+.entertainment {
+    position: absolute;
+    width: 201px;
+    height: 34px;
+    left: 711px;
+    top: 78px;
+}
+
+
+.contact {
+    position: absolute;
+    width: 157px;
+    height: 34px;
+    left: 1154px;
+    top: 78px; 
+}
+
+.home,
+.travel,
+.entertainment,
+.about,
+.contact {
+    justify-items: auto;
+}
+
+.home:hover,
+.travel:hover,
+.entertainment:hover,
+.about:hover,
+.contact:hover {
+    opacity: 0.5;
+}
+
+.logo:hover {
+    opacity: 0.6;
+}
+
+.ellipse-shape {
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 720px);
+    background-color: #7ca8a1;
+    width: 1440px;
+    height: 368px;
+}
+
+.footer-text {
+    position: absolute;
+    top:0;
+    left: 0;
+    font-size: 64px;
+    line-height: 80px;
+    font-family: "Francois One";
+    display: "inline-block";
+    width: 536px;    
+}
+
+
+.footer-text {
+    position: absolute;
+    top:0;
+    left: 0;
+    font-size: 64px;
+    line-height: 80px;
+    font-family: "Francois One";
+    display: "inline-block";
+    width: 536px;    
+}
+
+footer {
+    position: absolute;
+    top: 970px;
+    left: 160px;
+    width: 1121px;
+    height: 271px;
+    font-size: 20px;
+    color: #fff;
+}
+
+
+
+.footer{
+    position: absolute;
+    width: 536px;
+    height: 160px;
+    left: 160px;
+    top: 970px;
+    font-family: 'Francois One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+
+.voyage {
+    color:#08382D;
+}
+
+.email p {
+    position: absolute;
+    top: 231px;
+    left: 33px;
+    line-height: 40px;
+}
+
+.contact-info .email img {
+    position: absolute;
+    width: 24px;
+    height: 25px;
+    left: 160px;
+    top: 1212px;    
+}
+
+.image1,
+.image2,
+.image3 {
+    position: absolute;
+    top: 59px;
+    left: 995px;
+    width: 41px;
+    height: 41px;
+    object-fit: cover;   
+}
+
+.image1 {
+    left: 940px;
+}
+.image2 {
+    left: 985px;
+}
+
+.image3 {
+    left: 1030px;
+}
+
+
+.info,
+.terms,
+.privacy {
+    position: absolute;
+    top: 231px;
+    left: 33px;
+    line-height: 40px;
+}
+.terms,
+.privacy {
+    left: 70%;
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+.info {
+    margin: 0;
+}
+
+.privacy {
+    left: 88%;
+}

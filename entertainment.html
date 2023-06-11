@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- <link rel="stylesheet" href="./css/main.css" /> -->
+  <title>Entertainment</title>
+</head>
+
+<style>
+  /* 
+  footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    /* Adjust the height as needed */
+  /* background-color: #f5f5f5; */
+  /* Adjust the background color as needed */
+  /* } */
+  .image-container {
+    position: relative;
+    display: inline-block;
+
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  head body {
+    position: relative;
+    width: fit-content;
+    height: 336px;
+
+  }
+
+  header,
+  body {
+    background: #D9F1FF;
+  }
+
+  .home-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .start-page {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-buttons {
+    padding-top: 20px;
+    padding-left: 600px;
+  }
+
+  .nav-buttons button {
+    margin-left: 20px;
+    padding-left: 20px;
+  }
+
+  .giraffe-image img {
+    position: absolute;
+    width: 1120px;
+    height: 506px;
+    left: 160px;
+    top: 172px;
+    border-radius: 34px;
+
+  }
+
+  .description h2 {
+    position: absolute;
+    width: 388px;
+    height: 40px;
+    left: 526px;
+    top: 738px;
+    font-family: 'francois One';
+    font-weight: 400px;
+    font-size: 50px;
+    text-align: center;
+    color: #08382D;
+    text-decoration: underline;
+    text-decoration-color: #08382D;
+  }
+
+  .callus {
+    position: absolute;
+    width: 338px;
+    height: 49px;
+    left: 1200px;
+    top: 880px;
+    text-decoration: underline;
+    text-decoration-color: blue;
+
+  }
+
+  .call-us img {
+    position: absolute;
+    width: 440px;
+    height: 250px;
+    left: 840px;
+    top: 859px;
+    border-radius: 50px 50px 0px 0px;
+  }
+
+  .call-option {
+    position: absolute;
+    width: 430px;
+    height: 400px;
+    top: 1108px;
+    left: 840px;
+    padding: 30px;
+    background: #d0d1c9;
+    box-shadow: 18px 10px 80px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 50px 50px;
+
+  }
+
+  .call-option img {
+    position: absolute;
+    left: 23px;
+    left: 350px;
+    top: 300px;
+    width: 40px;
+    height: 50px;
+    background: #21A59C;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius: 50%;
+
+  }
+
+  .call-paragraph {
+    position: absolute;
+    width: 384px;
+    height: 160px;
+    left: 23px;
+    bottom: 240px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #757575;
+    text-align: justify;
+  }
+
+  .tanzania-office {
+    position: absolute;
+    bottom: 250px;
+    left: 23px
+  }
+
+  .tel-tz {
+    position: absolute;
+    bottom: 210px;
+    left: 23px;
+    color: green;
+    font-weight: bold;
+
+  }
+
+  .rwanda-office {
+    position: absolute;
+    bottom: 190px;
+    left: 23px;
+  }
+
+  .tel-rwanda {
+    position: absolute;
+    bottom: 160px;
+    left: 23px;
+    color: green;
+    font-weight: bold;
+  }
+
+  .label1 {
+    position: absolute;
+    width: 297px;
+    height: 34px;
+    left: 160px;
+    bottom: -300px;
+    font-weight: bolder;
+    font-size: 25px;
+    color: #08382D;
+  }
+
+  .paragraph1 {
+    position: absolute;
+    width: 297px;
+    height: 34px;
+    left: 160px;
+    bottom: -350px;
+    font-weight: 34px;
+    font-size: 25px;
+    color: #08382D;
+  }
+
+  .label2 {
+    position: absolute;
+    width: 297px;
+    height: 34px;
+    left: 160px;
+    bottom: -520px;
+    font-weight: 34px;
+    font-size: 17px;
+    color: #08382D;
+  }
+
+  .decor {
+    position: absolute;
+    width: 30px;
+    height: 28.59px;
+    left: 160px;
+    bottom: -557px;
+  }
+
+  .country {
+    position: absolute;
+    width: 125px;
+    height: 35px;
+    left: 201px;
+    bottom: -557px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.065em;
+    color: #757575;
+  }
+
+  .first-name {
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    left: 160px;
+    bottom: -700px
+  }
+
+  .firsttext {
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    left: 160px;
+    bottom: -700px;
+    border-radius: 16px;
+  }
+
+  .last-name {
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    left: 160px;
+    bottom: -820px
+  }
+
+  .lasttext {
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    left: 160px;
+    bottom: -820px;
+    border-radius: 16px;
+  }
+
+  .email {
+    position: absolute;
+    width: 160px;
+    height: 100px;
+    left: 160px;
+    bottom: -940px;
+  }
+
+  .emailtext {
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    left: 160px;
+    bottom: -940px;
+    border-radius: 16px;
+  }
+
+  .tel {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    left: 160px;
+    bottom: -1070px;
+  }
+
+  .teltext {
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    left: 160px;
+    bottom: -1070px;
+    border-radius: 16px;
+  }
+
+  .personal-info {
+    position: absolute;
+    width: 500px;
+    height: 160px;
+    left: 160px;
+    bottom: -1250px;
+  }
+
+  .plans-input {
+    position: absolute;
+    width: 300px;
+    height: 170px;
+    left: 160px;
+    bottom: -1350px;
+    border-radius: 16px;
+  }
+
+  .personal-info2 {
+    position: absolute;
+    width: 500px;
+    height: 160px;
+    left: 160px;
+    bottom: -1550px;
+  }
+
+  .plans-input2 {
+    position: absolute;
+    width: 300px;
+    height: 170px;
+    left: 160px;
+    bottom: -1650px;
+    border-radius: 16px;
+  }
+
+  .checkbox {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 160px;
+    top: 2296px;
+
+    background: #FFFFFF;
+    border: 3px solid #757575;
+  }
+
+  .subscribe {
+    position: absolute;
+    width: 413px;
+    height: 80px;
+    left: 222px;
+    top: 2296px;
+  }
+
+  .submit {
+    color: white;
+    font-size: large;
+    padding: 33px;
+    gap: 10px;
+
+    position: absolute;
+    width: 122px;
+    height: 36px;
+    left: 249px;
+    top: 2350px;
+
+    background: #21A59C;
+    text-align: center;
+    border-radius: 100px;
+  }
+
+  footer h2 {
+    position: absolute;
+    width: 1100px;
+    height: 250px;
+    left: 150px;
+    top: 2500px;
+    background: #7CABA1;
+    color: #FFFFFF;
+    padding: 50px 60px;
+    font-size: large;
+
+  }
+
+  .facebook-icon {
+    color: #023297;
+  }
+
+  .instagram-icon {
+    color: #c13584;
+  }
+
+  .twitter-icon {
+    color: #0670b3;
+  }
+
+  .gmail-icon {
+    color: #d33426;
+  }
+
+  .social-media-icons {
+    position: absolute;
+    left: 1000px;
+    top: 2500px;
+    display: flex;
+    justify-content: end;
+    padding: 50px 50px;
+
+  }
+
+  .social-media-margin {
+    margin-left: 10px;
+  }
+
+  .info {
+    position: absolute;
+    left: 150px;
+    top: 2700px;
+    display: flex;
+    padding: 2px 60px;
+  }
+
+  .info1 {
+    margin: 0px 10px;
+  }
+
+  .info2 {
+    font-size: large;
+    color: #FFFFFF;
+  }
+
+  .privacy {
+    position: absolute;
+    left: 950px;
+    top: 2700px;
+    display: flex;
+    padding: 5px 50px;
+  }
+
+  .privacy1 {
+    margin-right: 20px;
+    font-size: large;
+    color: #FFFFFF;
+  }
+
+  .info-circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .circle-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+  }
+
+  .image-container {
+    position: relative;
+    /* display: inline-block; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .text-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: green;
+    text-align: center;
+
+
+  }
+
+  .text-overlay h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .text-overlay p {
+    font-size: 16px;
+  }
+
+  .text-overlay .entertained {
+    font-weight: bold;
+  }
+
+  /* Adjust the styles as needed */
+
+
+  .container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .info-box {
+    width: 200px;
+    text-align: center;
+  }
+
+  .info-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  .circle-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+  }
+
+  .examples {
+    font-size: 14px;
+    color: black;
+  }
+</style>
+
+<body>
+  <div class="ellipse-shape"></div>
+  <div class="wrapper">
+    <div class="landing">
+
+      <header>
+        <nav>
+          <div class="start-page">
+            <div class="logo">
+              <img src="Screenshot 2023-06-09 062851.jpg" width="300" height="100"
+                style="position: absolute; left: 150px;">
+            </div>
+
+            <div class="nav-buttons">
+              <a href="#">HOME</a>
+              <a href="#">SERVICES</a>
+              <a href="about-us.html">ABOUT</a>
+              <a href="contact_us.html">CONTACT US</a>
+            </div>
+
+            <div>
+              <img src="search_icon.png" width="50" height="50" style="position: relative;right: 60px;">
+              <img src="menu_icon.png" width="50" height="50" style="position: relative;right: 60px;">
+            </div>
+          </div>
+
+        </nav>
+
+      </header>
+      <div class="content">
+        <div class="image-container">
+          <img
+            src="https://hideaway-of-nungwi-resort-spa-zanzibar.booked.net/data/Photos/OriginalPhoto/12779/1277950/1277950402/Riu-Palace-Zanzibar-Adults-Only-Hotel-Nungwi-Exterior.JPEG"
+            height="500" width="700">
+          <div class="text-overlay">
+            <h1>Dance with delight!</h1>
+            <p>
+              Here's how to keep yourself
+              <span class="entertained">entertained</span>
+              in Tanzania.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="info-box">
+          <div class="info-circle">
+            <span class="circle-text"> Top Attractions </span>
+          </div>
+          <div class="examples">
+            <p>
+              Cheetah's Rock • Mikumi National Park • Mount Kilimanjaro •
+              Mnarani Marine Turtles Conservation Pond
+            </p>
+          </div>
+        </div>
+
+        <div class="info-box">
+          <div class="info-circle">
+            <span class="circle-text"> Historical Attractions </span>
+          </div>
+          <div class="examples">
+            <p>
+              Prison Island • Stone Town • Forodhani Gardens • Spice Farm •
+              Vanishing Island • People;s Palace Museum
+            </p>
+          </div>
+        </div>
+
+        <div class="info-box">
+          <div class="info-circle">
+            <span class="circle-text"> Beaches </span>
+          </div>
+          <div class="examples">
+            <p>
+              Mnemba Island Snorkeling & Swimming with Dolphins • Nakupenda
+              Beach • Blue Lagoon • Paje Beach
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="quote-with-pic">
+        <img src="./public-entertainment/dolphin 1.png" alt="" />
+        <blockquote>
+          In Tanzania, it was more than one hundred tribal units which lost
+          their freedom; it was one nation that regained it.
+        </blockquote>
+        <p class="julius">— Julius Nyerere</p>
+      </div>
+
+      <div class="kilimanjaro-box">
+        <p>
+          Mount Kilimanjaro is a dormant volcano situated in the North of
+          Tanzania. It is the highest mountain in Africa and the tallest
+          free-standing mountain in the world. As the highest mountain in
+          Africa, Mount Kilimanjaro is one of the Seven Summits
+        </p>
+      </div>
+
+      <div class="button">
+        <div class="button-background"></div>
+        <a href="#">Hike Up Kilimanjaro with Club Kilimanjaro →</a>
+      </div>
+
+      <div class="restaurants">
+        <img src="./public-entertainment/Rectangle 20.png" alt="" />
+
+        <div class="button">
+          <div class="button-background"></div>
+          <a href="#">Restaurants in Zanzibar to Check Out →</a>
+        </div>
+      </div>
+
+    </div>
+    <footer>
+      <div class="footer-text">
+        <span>Ready to Book your next </span>
+        <span class="voyage">voyage</span>
+        <span>?</span>
+      </div>
+      <a href="#"><img class="image1" src="./public/image-3@2x.png" alt=""></a>
+      <a href="#"><img class="image2" src="./public/image-1-1@2x.png" alt=""></a>
+      <a href="#"><img class="image3" src="./public/image-2-1@2x.png" alt=""></a>
+      <div class="contact-info">
+        <div class="email">
+          <img class="image4" src="./public/image-3-1@2x.png">
+          <p class="info">info@redcarpettourism.com</p>
+        </div>
+        <a href="#" class="terms">Terms & Conditions</a>
+        <a href="#" class="privacy">Privacy Policy</a>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
