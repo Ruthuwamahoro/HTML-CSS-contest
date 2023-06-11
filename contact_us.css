@@ -113,6 +113,8 @@ head body{
     position:absolute;
     bottom:210px;
     left:23px;
+    color: green;
+    font-weight: bold;
 
 }
 .rwanda-office{
@@ -124,6 +126,8 @@ head body{
     position:absolute;
     bottom:160px;
     left:23px;
+    color: green;
+    font-weight: bold;
 }
 
 .label1{
